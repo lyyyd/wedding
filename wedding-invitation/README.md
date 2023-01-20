@@ -1,3 +1,4 @@
-<h2>
-文档已移至 <a href="https://uniapp.dcloud.io/uniCloud/uni-starter.html" target="_blank">uni-starter文档</a>
-</h2>
+wedding-invitation
+
+婚礼邀请函
+技术栈: uniapp、unicloud、vu2、腾讯云存储、云函数、云数据库
