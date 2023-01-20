@@ -1,0 +1,88 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "邀请函",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/photo/index",
+			"style": {
+				"navigationBarTitleText": "甜蜜相册",
+				"enablePullDownRefresh": false
+			}
+		}, 
+		{
+			"path": "pages/greet/index",
+			"style": {
+				"navigationBarTitleText": "送新人祝福",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/map/index",
+			"style": {
+				"navigationBarTitleText": "酒店导航",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": {
+		"list": [
+			{
+				"path": "pages/index/index"
+			},
+			{
+				"path": "pages/list/detail"
+			}, {
+				"path": "pages/list/list"
+			},
+			{
+				"path": "pages/ucenter/settings/settings"
+			}
+		],
+		"current": 1
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/1-1.png",
+			"selectedIconPath": "static/images/1-2.png",
+			"text": "邀请函"
+		}, {
+			"pagePath": "pages/photo/index",
+			"iconPath": "static/images/2-1.png",
+			"selectedIconPath": "static/images/2-2.png",
+			"text": "甜蜜相册"
+		}, {
+			"pagePath": "pages/map/index",
+			"iconPath": "static/images/3-1.png",
+			"selectedIconPath": "static/images/3-2.png",
+			"text": "酒店导航"
+		}, {
+			"pagePath": "pages/greet/index",
+			"iconPath": "static/images/4-1.png",
+			"selectedIconPath": "static/images/4-2.png",
+			"text": "送祝福"
+		}]
+	},
+	"uniIdRouter": {
+		"loginPage": "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+		"needLogin": [
+			"/uni_modules/uni-id-pages/pages/userinfo/userinfo"
+		],
+		"resToLogin": true
+	}
+}
